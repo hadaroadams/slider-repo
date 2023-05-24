@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.clear {
+  display: none;
+}
+
+section {
+  background-color: rgb(230, 241, 250);
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section .imageFrame {
+  border: 5px solid rgb(81, 137, 249);
+  border-radius: 20px;
+  width: 70%;
+  height: 350px;
+  display: flex;
+  overflow: hidden;
+}
+section .imageFrame article {
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+  transition: 0.2s;
+}
+section .imageFrame article img {
+  width: 100%;
+  height: 350px;
+}
+section .imageFrame article h1 {
+  font-size: 5em;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+section .buttonsContainer {
+  margin-top: 20px;
+}
+section .buttonsContainer button {
+  font-size: 2em;
+  background-color: transparent;
+  border: none;
+  color: rgb(3, 61, 97);
+  transition: 0.2s;
+  margin-left: 20px;
+}
+section .buttonsContainer button:hover {
+  color: rgb(15, 40, 85);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
